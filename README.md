@@ -59,7 +59,4 @@ XLTH/
   - matplotlib
   - soundfile
 
-Cài đặt:
 
-```bash
-pip install -r requirements.txt
