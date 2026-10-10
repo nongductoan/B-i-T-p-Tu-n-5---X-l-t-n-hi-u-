@@ -19,25 +19,26 @@ loại 5 thành viên và phát hiện người lạ.
 - Đánh giá bằng accuracy và confusion matrix.
 
 ## Cấu trúc thư mục
+```text
 XLTH/
-├── main.py # Script chính
-├── requirements.txt # Danh sách thư viện
-├── README.md # Tài liệu này
-├── .gitignore # Loại trừ file không cần thiết
+├── main.py                  # Script chính
+├── requirements.txt         # Danh sách thư viện
+├── README.md                # Tài liệu này
+├── .gitignore               # Loại trừ file không cần thiết
 ├── data/
-│ ├── train/ # Dữ liệu huấn luyện
-│ │ ├── <tên_người_1>/
-│ │ │ ├── file1.wav
-│ │ │ └── file2.wav
-│ │ ├── <tên_người_2>/
-│ │ └── ...
-│ └── test/ # Dữ liệu kiểm thử
-│ ├── <tên_người_1>/
-│ ├── ...
-│ └── nguoila/ # Thư mục chứa người lạ
-├── svd_plot.png # (tự sinh) Biểu đồ SVD
-└── confusion_matrix.png # (tự sinh) Ma trận nhầm lẫn
-
+│   ├── train/               # Dữ liệu huấn luyện
+│   │   ├── <tên_người_1>/
+│   │   │   ├── file1.wav
+│   │   │   └── file2.wav
+│   │   ├── <tên_người_2>/
+│   │   └── ...
+│   └── test/                # Dữ liệu kiểm thử
+│       ├── <tên_người_1>/
+│       ├── ...
+│       └── nguoila/         # Thư mục chứa người lạ
+├── svd_plot.png             # (tự sinh) Biểu đồ SVD
+└── confusion_matrix.png     # (tự sinh) Ma trận nhầm lẫn
+```
 
 ### Quy ước đặt tên thư mục
 
