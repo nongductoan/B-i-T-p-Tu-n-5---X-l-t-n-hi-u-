@@ -17,7 +17,7 @@ TRAIN_DIR = DATA_DIR / "train"
 TEST_DIR = DATA_DIR / "test"
 
 SAMPLE_RATE = 16000
-FIR_ORDER = 40
+FIR_ORDER = 20
 
 # Ngưỡng quyết định người lạ.
 # Cần điều chỉnh ngưỡng dựa trên dữ liệu validation.
